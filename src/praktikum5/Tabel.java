@@ -7,6 +7,7 @@ public class Tabel {
 
 		System.out.printf("Kui suur tuleb tabel? ");
 		int x = TextIO.getlnInt();
+
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < x; j++) {
 				if (i == j)
