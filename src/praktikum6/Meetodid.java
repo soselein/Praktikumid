@@ -27,6 +27,6 @@ public class Meetodid {
 
 	public static int suvalineArv(int min, int max) {
 		int vahemik = max - min + 1;
-		return min = (int) Math.random() * vahemik;
+		return min = (int) (Math.random() * vahemik);
 	}
 }
