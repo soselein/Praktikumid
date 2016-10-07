@@ -20,15 +20,15 @@ public class Grade {
 			throw new IllegalArgumentException("protsent liiga suur või väike " + d);
 		if (d <= 50)
 			return "fail";
-		if (d > 50 && d <= 60)
+		if (d <= 60)
 			return "sufficient";
-		if (d > 60 && d <= 70)
+		if (d <= 70)
 			return "satisfactory";
-		if (d > 70 && d <= 80)
+		if (d <= 80)
 			return "good";
-		if (d > 80 && d <= 90)
+		if (d <= 90)
 			return "very good";
-		if (d > 90 && d <= 150)
+		if (d <= 150)
 			return "excellent";
 		return grade;
 	}
