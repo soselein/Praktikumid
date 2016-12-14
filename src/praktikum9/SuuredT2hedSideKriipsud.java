@@ -7,7 +7,7 @@ public class SuuredT2hedSideKriipsud {
 
 	public static void main(String[] args) {
 
-		System.out.println("Palun sisesta s√µna.");
+		System.out.println("Palun sisesta sına.");
 		String sona = TextIO.getlnString();
 
 		sona = Meetodid.suuredTahedSideKriips(sona);
